@@ -1,1 +1,4 @@
 README file for the apps layer.
+It contains two simple programs : 
+1- Helloworld : helloworld to print hello world on the screen
+2- toggle-led : a daemon to indicate that the board is runnning smoothly and also and be run by user to toggle other leds
