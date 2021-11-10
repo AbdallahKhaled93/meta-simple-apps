@@ -78,11 +78,11 @@ int main(int argc, char *argv[])
 		ofs.open("/sys/class/gpio/gpio" + ledsMap[ledNumber] + "/direction", ofstream::out);
 		ofs << "out";
 		ofs.close();
-		cout << "Diection is set correclty." << endl;
+		cout << "Direction is set correclty." << endl;
 	}
 	catch(const exception& e)
 	{
-		cerr << "Error setting pin direction." << endl;
+		cerr << "Error during setting pin direction." << endl;
 		return 1;
 	}
 
